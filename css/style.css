@@ -1,0 +1,203 @@
+body{
+    font-family: Roboto,sans-serif;
+    background-color: hsl(0, 12%, 93%);
+}
+.navbg{
+    background-color:#D9EEE1;
+    padding: 8px 0;
+}
+.container{
+    margin: 25px auto;
+}
+/* video section */
+.video-bg{
+    height:400px;
+    width:100%;
+    position: relative;
+     background-color: #3F4042;
+    
+}
+.top-title{
+    font-family: Roboto,sans-serif;;
+    font-weight: 50;
+    color:#61aa43;
+    font-size: 42px;
+}
+.top-subtitle{
+    font-weight: 400;
+    font-family: Roboto,sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+/* btn login-btn */
+.login-btn{
+    font-family: Roboto,sans-serif;
+    color: #fff;
+    background: #61AA43;
+    padding: 8px 50px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* card section  */
+
+.title-text{
+    font-size: 20px;
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.second-titel{
+    font-size: 16px;
+    font-weight: 300px;
+    font-family: Roboto,sans-serif;
+   
+}
+.item-logo{
+    width: 50px;
+    height: auto;
+    margin-bottom: 5px;
+
+}
+.card{
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 3px 10px 0 rgb(0 0 0 / 19%);
+    border-radius: 3px;
+}
+.card-text{
+    font-size: 15px;
+    font-family: Roboto,sans-serif;
+    font-weight: 300px;
+    color: #3F4042;
+}
+
+
+/* payment section */
+.payment-text{
+font-family: Roboto,sans-serif;
+font-size: 14px;
+font-weight: 300;
+}
+.normal-btn{
+background-color: #61AA43;
+color: #fff;
+
+}
+.btn{
+    border-radius: 4px;
+    box-shadow: 0 6px 10px 0 rgba(37, 37, 37, 0.16),0 4px 10px 0 rgba(0,0,0,.12);
+}
+/* other option */
+a{
+    text-decoration: none;
+}
+h5{
+    font-size: 16px;
+    color:#3F4042;
+  
+}
+/* footer */
+.footer-bg{
+    background-color: #fff;
+    box-shadow: 0 6px 10px 0 rgba(37, 37, 37, 0.16),0 4px 10px 0 rgba(0,0,0,.12);
+}
+
+
+
+
+/* @media screen section */
+
+    
+@media only screen and (max-width: 520px){
+    .top-title{
+        
+        font-size: 23px;
+    }
+    .top-subtitle{
+        font-size: 16px;
+    }
+    .title-text{
+        font-size: 16px;
+    }
+    .second-titel{
+        font-size: 13px;
+    }
+    .card-text{
+        font-size: 13px;
+    }
+    .navbg{
+        background-color:#fff;
+        padding: 8px 0;
+    }
+    .section-margin{
+        margin: 30px 0 60px 0;
+    }
+    .title-text{
+        font-size: 16px;
+        
+    }
+    .des-text{
+        font-size: 14px;
+        
+    }
+    .payment-text{
+        font-size: 12px;
+    }
+}
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  /* Media Query for devices withi coarse pointers and no hover functionality */
+  
+  /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+  
+  
+  .hometitle{
+    color: #61AA43;
+    font-size: 40px;
+  }
+  .btn1{
+    width: 120px;
+    padding: 5px;
+    border: none;
+    background-color: #61AA43;
+    color: #fff;
+    font-weight: bold;
+  }
+ 
